@@ -14,11 +14,11 @@ document.addEventListener('click', (e) => {
   let x = e.offsetX - spider.clientWidth / 2;
   let y = e.offsetY - spider.clientHeight / 2;
 
-  if (x < 1) {
+  if (x < 0) {
     x = 0;
   }
 
-  if (y < 1) {
+  if (y < 0) {
     y = 0;
   }
 
